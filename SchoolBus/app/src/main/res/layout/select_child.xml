@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+<RelativeLayout
+    android:id="@+id/child_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white_color"
+    >
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="请选择要修改信息的孩子"
+        android:textSize="18sp"
+        />
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/close" />
+
+    <RadioGroup
+        android:id="@+id/child_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/title_tv"
+        android:layout_below="@id/close"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/child_tv"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/close"
+        android:layout_centerHorizontal="true"
+        android:text="您还未有孩子被绑定"
+        android:textSize="18sp"
+        />
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/child_list"
+        android:layout_centerHorizontal="true"
+        android:text="确认"
+        android:textColor="@color/white_color"
+        android:background="@drawable/button_style"
+        />
+</RelativeLayout>
+</LinearLayout>

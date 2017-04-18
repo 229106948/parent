@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="login_button">#1d89f2</color>
+    <color name="login_color">#A4CBFF</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="gray_color">#BFBFBF</color>
+    <color name="black_color">#000000</color>
+    <color name="red_color">#ff0000</color>
+    <color name="refresh_color">#323232</color>
+    <color name="main_footer_divider">#dbd6d6</color>
+    <color name="telephone_color">#1d89f2</color>
+    <color name="transparent">#90000000</color>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_layout" />
+
+    <EditText
+        android:id="@+id/child_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_style"
+        android:hint="请输入孩子的姓名" />
+
+    <EditText
+        android:id="@+id/child_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_style"
+        android:hint="请输入孩子的年级" />
+
+    <EditText
+        android:id="@+id/child_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_style"
+        android:hint="请输入孩子的班级" />
+
+    <RelativeLayout
+        android:id="@+id/line_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/line_tv"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input_style"
+            android:text="请选择线路"
+            android:textSize="18sp" />
+        <ImageView
+            android:id="@+id/line_img"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/select" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/aboardSite_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/aboardSite_tv"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input_style"
+            android:text="请选择上车站点"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/aboardSite_img"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/select" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/debusSite_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/debusSite_tv"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input_style"
+            android:text="请选择下车站点"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/debusSite_img"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/select" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/advanceSite_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/advanceSite_tv"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input_style"
+            android:text="请选择提前通知的站点"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/advanceSite_img"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/select" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_style"
+        android:text="确认"
+        android:textColor="@color/white_color"
+        android:textSize="20sp" />
+</LinearLayout>

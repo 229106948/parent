@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SchoolBus</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+</resources>

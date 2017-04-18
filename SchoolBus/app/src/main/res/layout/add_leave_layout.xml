@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/title_layout" />
+
+    <RelativeLayout
+        android:id="@+id/child_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/child_tv"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input_style"
+            android:text="请选择孩子"
+            android:textSize="18sp" />
+        <ImageView
+            android:id="@+id/child_img"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/select" />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/start_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_style"
+        android:hint="选择请假开始时间" />
+    <EditText
+        android:id="@+id/end_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_style"
+        android:hint="选择请假结束时间" />
+    <RelativeLayout
+        android:id="@+id/type_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/type_tv"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input_style"
+            android:text="请选择请假类型"
+            android:textSize="18sp" />
+        <ImageView
+            android:id="@+id/type_img"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/select" />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/telephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_style"
+        android:hint="联系方式" />
+    <EditText
+        android:id="@+id/leave_reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="11"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_style"
+        android:hint="请假原因" />
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_style"
+        android:text="确认"
+        android:textColor="@color/white_color"
+        android:textSize="20sp" />
+</LinearLayout>
